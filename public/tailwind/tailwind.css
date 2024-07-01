@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer{
+    .asli{
+        width: 100%;
+direction: rtl;
+font-family: amirrr;
+
+    }
+   
+}
+@layer{
+    @font-face {
+        font-family: amirrr;
+        src: url(../font/IRANSansLight\ \(2\).woff);
+        src: url(../font/IRANSansWeb_Medium\ \(4\).woff2);
+        src: url(../font/IRANSansWeb_Medium\ \(5\).woff2);
+
+    }
+
+}
